@@ -1,0 +1,65 @@
+/* Classes */
+
+@font-face {
+    font-family: "Lucida_Console";
+    src: url("fonts/lucon.eot");
+    src: url("fonts/lucon.woff") format("woff"),
+    url("fonts/lucon.otf") format("opentype"),
+    url("fonts/lucon.svg#filename") format("svg");
+}
+
+html {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: blue;
+  }
+
+.blockone {
+    position: absolute;
+    display: block;
+    width: 1000px;
+    height: 571px;
+    background-color: rgb(68, 73, 78);
+    left: -250px;
+}
+
+
+.bsconference {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: rgb(112, 91, 91);
+}
+
+.bscontext {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+/* Etiquettes */
+
+h1 {
+    color: white;
+}
+
+ul {
+    color: rgb(201, 137, 137);
+    list-style-type: none;
+    display: inline;
+}
+
+#ListaOne li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:black;
+}
